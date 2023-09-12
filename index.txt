@@ -1,0 +1,17 @@
+start
+get the set 1[3,1,7,9]
+get the set 2[2,4,1,9,3]
+get another variable sum=0
+compare the element found in set 1 to set 2
+is an element found in set 1 also found in set 2
+if true let sum=sum+0
+if false let sum=sum+[the element] 
+repeat step 6,step 7,step 8 sequentially till all element in set 1 has been completely evaluated
+get the value of sum
+compare the element in set 2 to set 1
+is an element in set 2 also in set 1
+if true let sum=sum+0
+if false let sum=sum+[the element]
+repeat step 12,step 13, step 14 sequentially till all element in set 2 has been completely evaluated
+print the value of sum
+end 
